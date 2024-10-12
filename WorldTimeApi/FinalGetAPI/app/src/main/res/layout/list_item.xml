@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/abbreviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abbreviation"
+        android:textColor="#8C0000" />
+
+
+    <TextView
+        android:id="@+id/client_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client IP" />
+
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datetime" />
+
+
+    <TextView
+        android:id="@+id/day_of_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day of Week" />
+
+
+    <TextView
+        android:id="@+id/day_of_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day of Year" />
+
+
+    <TextView
+        android:id="@+id/dst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DST" />
+
+
+    <TextView
+        android:id="@+id/dst_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DST From" />
+
+
+    <TextView
+        android:id="@+id/dst_offset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DST Offset" />
+
+
+    <TextView
+        android:id="@+id/dst_until"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DST Until" />
+
+
+    <TextView
+        android:id="@+id/raw_offset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raw Offset" />
+
+
+    <TextView
+        android:id="@+id/timezone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timezone" />
+
+
+    <TextView
+        android:id="@+id/unixtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unixtime" />
+
+    <TextView
+        android:id="@+id/utc_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTC Datetime" />
+
+    <TextView
+        android:id="@+id/utc_offset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTC Offset" />
+    <TextView
+        android:id="@+id/week_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week Number" />
+
+
+</LinearLayout>
